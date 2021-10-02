@@ -1,4 +1,5 @@
 const deg = 6;
+
 const secondHand = document.querySelector('.sec');
 const minsHand = document.querySelector('.min');
 const hourHand = document.querySelector('.hour');
@@ -19,3 +20,11 @@ setInterval(() => {
 
 
 }, 1000);
+
+
+// Toggle Function goes here 
+
+function toggleFunction() {
+    const element = document.body;
+    element.classList.toggle("light-mode");
+}
